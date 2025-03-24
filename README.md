@@ -1,4 +1,4 @@
-# Manueal de Kotklin 
+# Manual de Kotklin 
 ## Profesor 
 ### Jorge Gonzalez
 
