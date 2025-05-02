@@ -11,3 +11,5 @@ fun main() {
         print("todos los numeros son menores")
     else
         print("todos los numeros son mayores")
+
+}
