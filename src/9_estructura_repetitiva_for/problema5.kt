@@ -8,12 +8,11 @@ b) Cantidad de triángulos de cada tipo.
 */
 
 fun main() {
-    val n = readLine()!!.toInt()
-
     var equilateros = 0
     var isosceles = 0
     var escalenos = 0
-
+    println("ingrse la caantida de triangulos que quiera saber su nombre: ")
+    val n = readLine()!!.toInt()
     for (i in 1..n) {
         println("Ingrese los tres lados del triángulo $i:")
         print("Lado 1: ")
@@ -39,7 +38,7 @@ fun main() {
         }
     }
 
-    println("\nResumen de los triángulos:")
+    println("Resumen de los triángulos:")
     println("Equiláteros: $equilateros")
     println("Isósceles: $isosceles")
     println("Escalenos: $escalenos")
